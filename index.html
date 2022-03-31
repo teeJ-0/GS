@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2a9b365df0.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Bebas+Neue&family=Poppins:wght@600&family=Roboto:wght@300&family=Staatliches&family=Teko:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Gaming Social</title>
+</head>
+<body>
+ <header>
+    <img class="logo" src="includes/logo.png" alt="logo">
+        <nav>
+            <ul class="nav__links">
+                <li><a href="#">GLOBAL CHAT</a></li>
+                <li><a href="#">GAMES</a></li>
+                <li><a href="#">MATCH FINDER</a></li>
+                <li><a href="pages/tournament-front-page/index.html">TOURNAMENTS</a></li>
+                <li><a href="#">LEADERBOARDS</a></li>
+                <li><a href="#">EXPLORE</a></li>
+                <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </nav>
+        <div class="buttons-wrap">
+         <a class="login__button" href="pages/login-page/login-page.html"><button>LOGIN</button></a>
+         <a class="signup__button" href="pages/signup-page/signup-page.html"><button>SIGNUP</button></a>
+        </div>
+ </header>
+
+
+    <div class="owl-container">
+        <h1> FEATURED GAMES </h1>
+        <div class="card">
+        <div class="owl-carousel">
+            <div class="item1"><img class = "carousel-img" src="images/callofdutyvanguard.png"></div>
+            <div class="item1"><img class = "carousel-img" src="images/warzonepacific.png"></div>
+            <div class="item1"><img class = "carousel-img" src="images/haloinfinite.png"></div>
+            <div class="item1"><img class = "carousel-img" src="images/fortnite.png"></div>
+        </div>
+        </div>
+        <div class="more-soon-button-wrap">
+        <button class = "more-soon-button" href="#">MORE SOON</button>
+        </div>
+    </div>
+    
+    <!--JAVASCRIPT SCRIPTS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+            loop: false,
+            margin: -100,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 10000,
+            responsive:{
+                0:{
+                    items:2
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:4
+                }
+            }
+        });       
+    </script>
+
+<section class="sectionTournaments">
+    <h1>TOURNAMENTS</h1>
+    <p>view all</p>
+    <div class="container--tournaments">
+        <div class="flex-tournament">
+            <img class="vanguardimg" src="images/vanguardimg2.jpg" alt="Tournament">
+        </div>
+        <div class="flex-tournament">
+            <img class="vanguardimg" src="images/vanguardimg2.jpg" alt="Tournament">
+        </div>
+        <div class="flex-tournament">
+            <img class="vanguardimg" src="images/vanguardimg2.jpg" alt="Tournament">
+        </div>
+        <div class="flex-tournament">
+            <img class="vanguardimg" src="images/vanguardimg2.jpg" alt="Tournament">
+        </div>
+        <div class="flex-tournament">
+            <img class="vanguardimg" src="images/vanguardimg2.jpg" alt="Tournament">
+        </div>
+        <div class="flex-tournament">
+            <img class="vanguardimg" src="images/vanguardimg2.jpg" alt="Tournament">
+        </div>
+        <div class="flex-tournament">
+            <img class="vanguardimg" src="images/vanguardimg2.jpg" alt="Tournament">
+        </div>
+        <div class="flex-tournament">
+            <img class="vanguardimg" src="images/vanguardimg2.jpg" alt="Tournament">
+        </div>
+        
+    </div>
+</section>
+
+
+<section class="sectionEarners">
+    <h1>TOP EARNERS</h1>
+    <div class="container--top-earners">
+        <div class="secondplace-card">
+            <h2>2ND</h2>
+            <div class="join">
+            </div>
+        </div>    
+        <div class="firstplace-card">
+            <h2>1ST</h2>
+            <div class="play">
+            </div>
+        </div>    
+        <div class="thirdplace-card">
+            <h2>3RD</h2>
+            <div class="earn">
+            </div>   
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <div class="footer-container">
+        <h2>© 2022 GAMING SOCIAL LLC.</h2>
+        <p>ALL RIGHTS RESERVED</p>
+    </div>
+</footer>
+
+</body>
+</html>

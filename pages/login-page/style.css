@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('includes/Background.png');
+    background-size: cover;
+}
+header {
+    background-color: #222;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+header li, a, button {
+    font-family: 'Poppins';
+    letter-spacing: 1px;
+    font-weight: 50;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+header .nav__links {
+    list-style: none;
+}
+header .nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+header .nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+header .nav__links li a:hover{
+    color: rgba(162, 0, 0, 1);
+}
+header .button-wrap, button{
+    padding: 9px 25px;
+    background-color: rgba(162, 0, 0, 1);
+    border: none;
+    border-radius: 25px;
+    transition: all 0.3s ease 0s;
+}
+header .button-wrap, button:hover {
+    cursor: pointer;
+    background-color: rgba(162, 0, 0, 0.8);
+}
+header .logo {
+    padding-left: 20px;
+    padding-top: 5px;
+    cursor: pointer;
+
+    
+}
+
+/* LOGIN FORM */
+
+.sign-up-form{   
+    width: 300px;
+    box-shadow: 0px 0px 15px;
+    background: #222;
+    padding: 10px;
+    margin: 10% auto 0;
+    text-align: center;
+    border-radius: 10px;
+}
+.sign-up-form h1{
+    color: #dddddd;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.sign-up-form .input-box{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid white;
+    outline: none;
+    background-color: #2b2b2b;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.sign-up-form button{
+    color: white;
+    width: 100%;
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 25px 0px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.sign-btn{
+    background-color: #980000;
+    font-family:'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.gmail-btn{
+    background-color: #980000;
+    font-family:'Poppins', sans-serif;
+    font-size: 15px;
+}
+.sign-btn:hover{
+    background-color:red;
+    transform: scale(1.05);
+}
+.gmail-btn:hover{
+    background-color: red;
+    transform: scale(1.05);
+}
+
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.or {
+    width: 30px;
+    margin: -10px auto 15px;
+}
+.sign-up-form a {
+    
+    text-decoration: none;
+    color:red;
+    text-align: center; 
+}
+.sign-up-form p{
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+    color: #dddddd;
+    font-size: 12px;
+    padding: 0px;
+}
